@@ -148,12 +148,11 @@
     }
     .pedicure p{
         position: absolute;
-        font-size: 16px;
         color: #7D5620;
-        top: 4.5em;
+        top: 9em;
         line-height: 2em;
-        left: 20em;
-        font-size: 30px;
+        left: 49em;
+        font-size: 16px;
     }
 
     /* start box-img */

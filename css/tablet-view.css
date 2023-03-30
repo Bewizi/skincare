@@ -157,11 +157,11 @@
     }
     .pedicure p{
         position: absolute;
-        font-size: 16px;
+        text-align: center;
         color: #7D5620;
         top: 9em;
         line-height: 2em;
-        left: 48em;
+        left: 49em;
         font-size: 16px;
 
     }
@@ -230,7 +230,7 @@
     font-size: 25px;
     position: relative;
     top: -4em;
-    left: 0em;
+    left: -5em;
     color: #212121;
 }
 .box-2 span{
@@ -254,14 +254,14 @@
     position: relative;
     font-size: 25px;
     top: -4em;
-    left: 0em;
+    left: -3em;
     color: #212121;
 }
 .box-3 span{
     position: absolute;
     font-size: 16px;
     top: 22em;
-    left: 44em;
+    left: 47em;
 }
 /* end box-3 img */
 
@@ -278,7 +278,7 @@
     position: relative;
     font-size: 25px;
     top: -4em;
-    left: 0;
+    left: -3.5em;
     color: #212121;
 }
 

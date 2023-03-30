@@ -130,8 +130,7 @@
     /* pedicure */
     .pedicure{
         position: relative;
-    top: 110em;
-
+        top: 110em;
         width: 1900px;
         min-height: 1000px;
 
@@ -150,8 +149,6 @@
         top: 9em;
         line-height: 2em;
         left: 48em;
-        font-size: 16px;
-
     }
 
     /* start box-img */
@@ -177,7 +174,7 @@
     width: 200px;
     position: absolute;
     top: 11em;
-    left: 0em;
+    left: -1em;
     /* line-height: 3em; */
     font-size: 28px;
     color: #212121;
@@ -218,7 +215,7 @@
     font-size: 25px;
     position: relative;
     top: -4em;
-    left: 0em;
+    left: -5em;
     color: #212121;
 }
 .box-2 span{
@@ -242,13 +239,14 @@
     position: relative;
     font-size: 25px;
     top: -4em;
-    left: 0em;
+    left: -3em;
     color: #212121;
 }
 .box-3 span{
     position: absolute;
     font-size: 16px;
     top: 22em;
+    left: 47em;
 }
 /* end box-3 img */
 
@@ -265,7 +263,7 @@
     position: relative;
     font-size: 25px;
     top: -4em;
-    left: 0;
+    left: -3.5em;
     color: #212121;
 }
 

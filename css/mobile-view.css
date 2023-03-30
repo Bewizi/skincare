@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 425px) {
     .nav{
         position: absolute;
         width: 1900px;
@@ -7,18 +7,18 @@
     .nav-list span{ 
         font-size: 20px;
         line-height: 5em;
-        margin-left: 1em;
+        margin-left: 15em;
     }
 
     .nav-list ul{
-        padding: 0 8em;
+        padding: 0 15em;
         display: flex;
     }
 
     .prog{
         position: absolute;
         top: 1.5em;
-        left: 50em;
+        left: 70em;
         font-size: 20px;
         width: 200px;
         height: 50px;
@@ -30,50 +30,51 @@
 
     h1{
         position: absolute;
-        left: 0em;
+        width: 500px;
+        left: 10em;
     }
 
     p{
         position: absolute;
-        /* width: 500px; */
+        width: 350px;
         font-size: 16px;
         top: 27.5em;
-        left: 0em;
+        left: 40em;
     }
 
 
     .img-1 img{
         position: absolute;
         /* line-height: 10em; */
-        top: 31em;
-        left: 0;
+        top: 32em;
+        left: 40em;
     }
 
     .img-1 h4{
         width: 280px;
         position: absolute;
-        top: 24em;
-        left: 3em;
+        top: 25em;
+        left: 35em;
     }
 
 
     .img-1 p{
         position: absolute;
         width: 500px;
-        top: 36em;
-        left: 4em;
+        top: 37em;
+        left: 47em;
     }
 
     .img-1 span{
         position: absolute;
-        top: 36em;
-        left: 4em;
+        top: 37em;
+        left: 44em;
     }
 
     .img-1 i{
         position: absolute;
-        top: 36em;
-        left: 12em;
+        top: 37em;
+        left: 50em;
     }
 
 
@@ -81,12 +82,13 @@
         position: absolute;
         /* height: 650px; */
         top: 48em;
-        left: 0;
+        left: 40em;
     }
 
     .content{
         position: relative;
-        width: 1900px;
+        width: 1000px;
+        left: 20em;
         top: 39em;
     }
 
@@ -96,71 +98,72 @@
         height: 750px;
         object-fit: cover;
         top: 87em;
-        left: 2em;
+        left: 35em;
     }
 
     .img-3 p{
-        width: 900px;
+        width: 500px;
         position: absolute;
-        top: 37em;
-        left: 1.2em;
-        font-size: 60px;
+        top: 54em;
+        left: 17em;
+        font-size: 40px;
     }
 
     .img-3 p:nth-child(3){
-        top: 156em;
+        top: 118em;
+        width: 500px;
+        font-size: 20px;
         position: absolute;
-        left: 5em;
+        left: 32em;
+        text-align: center;
     }
 
     .clock-prog{
         position: absolute;
-        top: 162em;
-        left: 5em;
+        top: 158em;
+        left: 50em;
     }
 
     .img-4 img{
         position: absolute;
-        top: 168em;
-        left: 2em;
+        top: 165em;
+        left: 25em;
     }
 
 
     /* pedicure */
     .pedicure{
         position: relative;
-    top: 180em;
-
-        /* width: 1900px; */
-        /* height: 2000px; */
+        top: 190em;
+        width: 1900px;
+        height: 3500px;
     }
 
     .pedicure h1{
         position: relative;
         top: -2em;
         line-height: 7.5em;
-        left: 0em;
+        left: 12em;
         width: 900px;
-        font-size: 60px;
-        color: #212121;
     }
     .pedicure p{
         position: absolute;
         font-size: 16px;
         color: #7D5620;
-        top: 9em;
+        top: 4.5em;
         line-height: 2em;
-        left: 0em;
+        left: 20em;
+        font-size: 30px;
     }
 
     /* start box-img */
 .box-img{
     position: absolute;
     top: 20em;
-    left: 5em;
+    left: 50em;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 11em;
 }
 /* end box-img */
 
@@ -177,29 +180,21 @@
     position: absolute;
     top: 11em;
     left: 0em;
-    /* line-height: 3em; */
-    font-size: 28px;
-    color: #212121;
 }
 .box-1 p:nth-child(3){
     margin-top: 1em;
     padding: 0.2em 0;
     width: 100px;
     height: 40px;
-    /* border: 2px solid black; */
-    font-size: 16px;
     position: absolute;
-    top: 25em;
-    border-radius: 50px;
-    text-align: center;
-    color: #fff;
-    background-color: #B58224;
+    top: 27em;
+    
 }
 .box-1 span{
     position: absolute;
     color: #212121;
     font-size: 16px;
-    top: 26.5em;
+    top: 28.5em;
     left: 7em;
 }
 /* end box-1 img */
@@ -208,7 +203,7 @@
 /* start box-2 img */
 .box-2 img{
     position: relative;
-    top: -6em;
+    top: -2em;
     width: 320px;
     height: 400px;
     object-fit: cover;
@@ -216,14 +211,14 @@
 .box-2 p{
     font-size: 25px;
     position: relative;
-    top: -4em;
+    top: -1.5em;
     left: 0em;
     color: #212121;
 }
 .box-2 span{
     position: absolute;
     font-size: 16px;
-    top: 22em;
+    top: 62.5em;
 }
 /* end box-2 img */
 
@@ -241,13 +236,14 @@
     position: relative;
     font-size: 25px;
     top: -4em;
-    left: 0em;
+    left: 0.5em;
     color: #212121;
 }
 .box-3 span{
     position: absolute;
     font-size: 16px;
-    top: 22em;
+    top: 98.5em;
+    left: 1em;
 }
 /* end box-3 img */
 
@@ -271,7 +267,7 @@
 .box-4 span{
     position: absolute;
     font-size: 16px;
-    top: 22em;
+    top: 138em;
 }
 
 /* end box-4 img */
@@ -297,36 +293,221 @@
 .box-5 span{
     position: absolute;
     font-size: 16px;
-    top: 22em;
-    line-height: 8em;
+    top: 175em;
+    line-height: 11em;
 }
 
 /* end box-5 img */
 
-
+/* start anchor */
+.anchor a{
+    width: 250px;
+    height: 60px;
+    border: 2px solid #212121;
+    position: absolute;
+    top: 210em;
+    left: 49em;
+    
+}
+/* end anchor */
     /*end pedicure */
 
     /* text-content */
+
+    .img-5 img{
+        position: relative;
+        top: 195em;
+        width: 500px;
+        left: 45em;
+        object-fit: cover;
+    }
+
     .text-content p{
-        position: absolute;
+        position: relative;
         width: 500px;
         font-size: 33px;
-        top: 90em;
-        left: 0em;
+        top: 95em;
+        left: 27em;
         color: #000fff;
     }
 
 
     .text-content h3{
-        position: absolute;
+        position: relative;
         top: 63em;
-        width: 800px;
-        left: 0em;    
+        width: 600px;
+        left: 13em;    
         font-size: 50px;
+        text-align: center;
     }
 
+    .text-content p:nth-child(3){
+        position: absolute;
+        top: 260em;
+        /* width: 800px; */
+        left: 18em;
+        font-size: 30px;
+    }
+
+    .img-6 img{
+        position: relative;
+        top: 238em;
+        left: 45em;
+        /* width: 500px; */
+    }
 
     /*end  text-content */
 
+    /* text paragraph */
+    .text-paragraph{
+        position: absolute;
+        top: 100;
+    }
 
+    .text-paragraph p{
+        width: 900px;
+    }
+
+    .box-content{
+        position: absolute;
+        top: 100;
+    }
+
+    .treatment p{
+        position: absolute;
+        width: 500px;
+    }
+
+    .treatment ol{
+        width: 500px;
+    }
+     /* end text paragraph */
+
+
+    /* glowing-skin */
+    .glowing-skin{
+        position: relative;
+        top: 270em;
+        width: 1900px;
+        height: 2300px;
+    }
+
+    .glowing-skin h1{
+        position: absolute;
+        left: 13em;
+    }
+    .glowing-skin p{
+        position: absolute;
+        left: 56em;
+    }
+
+    .group-9{
+        position: absolute;
+        top: 335em;
+        left: 44em;
+    }
+
+    .group-9-img{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 15em;
+    }
+
+    .box-7 p{
+        position: absolute;
+        top: 35em;
+        left: 0;
+    }
+
+    .box-7 p:nth-child(2){
+        position: absolute;
+        top: 72em;
+        left: 0em;
+    }
+
+    .box-7 span{
+        position: absolute;
+        top: 70em;
+        left: 0em;
+    }
+
+
+    .box-8 p{
+        position: absolute;
+        top: 57em;
+        left: 0em;
+    }
+
+    .box-8 p:nth-child(2){
+        position: absolute;
+        font-size: 15px;
+        top: 120em;
+        left: 0em;
+    }
+
+    .box-8 span{
+        position: absolute;
+        top: 112em;
+        left: 0em;
+        text-decoration: line-through;
+    }
+    .box-8 span:last-child{
+        position: absolute;
+        top: 112em;
+        left: 5em;
+        text-decoration: none;
+    }
+
+    div .service{
+        position: absolute;
+        top: 325em;
+        text-align: center;
+        left: 6em;
+    }
+    /* end glowing-skin  */
+
+    .email-content{
+        position: relative;
+        top: 280em;
+        left: 18em;
+    }
+
+    hr{
+        position: relative;
+        top: 290em;
+        width: 1900px;
+        border: solid #000;
+    }
+
+    footer{
+        position: relative;
+        width: 1900px;
+        top: 295em;
+        left: 0em;
+    }
+
+    .footer-logo span{
+        position: absolute;
+        top: 4em;
+        left: 10em;
+    }
+
+    .footer-logo p{
+        position: absolute;
+        top: 11em;
+        left: 19em;
+    }
+
+    .footer-logo i{
+        position: absolute;
+        top: 9em;
+        left: 10em;
+    }
+
+    .footer-logo i:last-child{
+        position: absolute;
+        left: 12em;
+    }
+    
 }

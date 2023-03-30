@@ -39,6 +39,7 @@
 
     p{
         position: absolute;
+        width: 350px;
         top: 27em;
         left: 19.5em;
         font-size: 16px;
@@ -89,6 +90,7 @@
     .content{
         position: absolute;
         width: 1900px;
+        left: 0;
         top: 39.5em;
     }
 
@@ -103,10 +105,10 @@
 
     .img-3 p{
         width: 900px;
-    position: absolute;
-    top: 15em;
-    left: 14.5em;
-    font-size: 60px;
+        position: absolute;
+        top: 15em;
+        left: 14.5em;
+        font-size: 60px;
     }
 
 
@@ -116,6 +118,7 @@
         font-size: 16px;
         width: 700px;
         left: 55em;
+        text-align: start;
     }
 
     .clock-prog{
@@ -159,6 +162,8 @@
         top: 9em;
         line-height: 2em;
         left: 48em;
+        font-size: 16px;
+
     }
 
     /* start box-img */
@@ -256,6 +261,7 @@
     position: absolute;
     font-size: 16px;
     top: 22em;
+    left: 44em;
 }
 /* end box-3 img */
 
@@ -311,8 +317,26 @@
 
 /* end box-5 img */
 
-
+/* start anchor */
+.anchor a{
+    width: 250px;
+    height: 60px;
+    border: 2px solid #212121;
+    position: absolute;
+    top: 50em;
+    left: 49em;
+}
+/* end anchor */
     /* end pedicure */
+
+    /* text content */
+
+    .img-5 img{
+        position: relative;
+        top: 115em;
+        width: 500px;
+        left: -1.5em;
+    }
 
     .text-content p{
         position: absolute;
@@ -326,16 +350,38 @@
     .text-content h3{
         position: absolute;
         top: 60.5em;
-        left: 12.5em;
-
+        left: 10.5em;
+        width: 800px;
+        text-align: center;
+        font-size: 50px;
     }
 
     .text-content p:nth-child(3){
         position: absolute;
         top: 139em;
         width: 800px;
-        left: 22.5em;
+        left: 23em;
         font-size: 23px;
+    }
+    
+    .img-6 img{
+        position: relative;
+        top: 67em;
+        left: 87em;
+        width: 500px;
+    }
+    /* end text content */
+
+
+    /* text-paragrph */
+    .text-paragraph{
+        position: absolute;
+        top: 0;
+    }
+
+    .box-content{
+        position: absolute;
+        top: 0;
     }
 
     .text-paragraph p{
@@ -350,23 +396,103 @@
     .treatment li{
         width: 400px;
     }
+    /*end  text-paragrph */
+    
+
+    /* glowing-skin */
     .glowing-skin{
         position: relative;
         top: 112.5em;
         width: 1900px;
+        height: 1000px;
     }
     .glowing-skin h1{
         position: absolute;
+        left: 12em;
         top: 1.5em;
     }
     .glowing-skin p{
         position: absolute;
-        top: 8em;
+        left: 52em;
+        top: 7em;
     }
+    .group-9{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .group-9-img{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        left: 5em;
+        gap: 4em;
+    }
+
+    .box-7 p{
+        position: absolute;
+        top: 14em;
+        left: 19em;
+    }
+
+    .box-7 p:nth-child(2){
+        position: absolute;
+        top: 30em;
+        left: 38em;
+        line-height: 9em;
+    }
+
+    .box-7 span{
+        position: absolute;
+        top: 30em;
+        line-height: 8em;
+        left: 36em;
+    }
+
+    .box-8 p{
+        position: absolute;
+        top: 14em;
+        left: 38em;
+    }
+
+    .box-8 p:nth-child(2){
+        position: absolute;
+        font-size: 15px;
+        top: 34em;
+        left: 76em;
+    }
+
+    .box-8 span{
+        position: absolute;
+        top: 32em;
+        line-height: 8em;
+        left: 71.5em;
+        text-decoration: line-through;
+    }
+    .box-8 span:last-child{
+        position: absolute;
+        top: 32em;
+        line-height: 8em;
+        left: 76em;
+        text-decoration: none;
+    }
+
+    div .service{
+        position: absolute;
+        top: 260em;
+        text-align: center;
+        left: 36em;
+    }
+
+    /*end  glowing-skin */
+
 
     .email-content{
         position: relative;
         top: 118em;
+        left: 10em;
+
     }
     hr{
         position: relative;
@@ -377,5 +503,31 @@
     footer{
         position: relative;
         width: 1900px;
+        top: 130em;
+        left: 0em;
     }
+
+    .footer-logo span{
+        position: absolute;
+        top: 4em;
+        left: 5em;
+    }
+
+    .footer-logo p{
+        position: absolute;
+        top: 11em;
+        left: 9em;
+    }
+
+    .footer-logo i{
+        position: absolute;
+        top: 9em;
+        left: 5em;
+    }
+
+    .footer-logo i:last-child{
+        position: absolute;
+        left: 6.5em;
+    }
+    
 }

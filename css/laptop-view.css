@@ -38,6 +38,7 @@
 
     p{
         position: absolute;
+        width: 350px;
         top: 27em;
         left: 19.5em;
         font-size: 16px;
@@ -141,9 +142,6 @@
         top: -2em;
         line-height: 7.5em;
         left: 12em;
-        width: 900px;
-        font-size: 60px;
-        color: #212121;
     }
     .pedicure p{
         position: absolute;
@@ -152,6 +150,8 @@
         top: 9em;
         line-height: 2em;
         left: 48em;
+        font-size: 16px;
+
     }
 
     /* start box-img */
@@ -303,7 +303,16 @@
 }
 
 /* end box-5 img */
-
+/* start anchor */
+.anchor a{
+    width: 250px;
+    height: 60px;
+    border: 2px solid #212121;
+    position: absolute;
+    top: 50em;
+    left: 49em;
+}
+/* end anchor */
 
     /* end pedicure */
     
@@ -328,7 +337,6 @@
         position: absolute;
         top: 63em;
         width: 800px;
-        left: 12.5em;    
         font-size: 50px;
     }
 
@@ -386,5 +394,7 @@
     footer{
         position: relative;
         width: 1900px;
+        top: 130em;
+        left: 0em;
     }
 }

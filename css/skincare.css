@@ -71,7 +71,6 @@ p{
     font-size: 16px;
     
 }
-
 .img-1 img{
     position: absolute;
     top: 30em;
@@ -99,7 +98,7 @@ p{
 .img-1 span{
     position: absolute;
     top: 35em;
-    left: 23em;
+    left: 23.5em;
     line-height: 2em;
     font-size: 16px;
     color: #ECD8BD;
@@ -114,7 +113,8 @@ p{
 
 .img-2 img{
     position: absolute;
-    top: 7.5em;
+    /* height: 650px; */
+    top: 0em;
     left: 80em;
 }
 
@@ -241,7 +241,7 @@ p{
     position: relative;
     top: -2em;
     line-height: 7.5em;
-    left: 13em;
+    left: 12em;
     width: 900px;
     font-size: 60px;
     color: #212121;
@@ -252,7 +252,7 @@ p{
     color: #7D5620;
     top: 9em;
     line-height: 2em;
-    left: 52em;
+    left: 48em;
 }
 /* end of pedicure */
 
@@ -262,6 +262,7 @@ p{
     top: 20em;
     left: 5em;
     display: flex;
+    flex-direction: row;
     gap: 2em;
 }
 /* end box-img */
@@ -333,6 +334,7 @@ p{
 .box-3 img{
     position: relative;
     top: -6em;
+    left: 1em;
     width: 320px;
     height: 400px;
     object-fit: cover;
@@ -447,7 +449,7 @@ p{
     position: absolute;
     top: 63em;
     width: 800px;
-    left: 12.5em;    
+    left: 12.5em;
     font-size: 50px;
 }
 
@@ -558,7 +560,7 @@ p{
 /* start glowing-skin */
 .glowing-skin{
     position: relative;
-    top: 100em;
+    top: 105em;
     height: 1000px;
     /* border: 2px solid #000; */
     background-color: #ECD8BD;
